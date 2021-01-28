@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <style type="text/css">
       @font-face{
           font-family:"hensa-regular";
@@ -53,10 +54,10 @@
     </header>
 
     <main>
-          <h1 class="textCenter">
+          <h1 class="textCenter"  data-aos="fade-right" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">
             This is<br>OUR STORY
           </h1> 
-          <section class="aboutSection flexRow centerMe">
+          <section class="aboutSection flexRow centerMe"  data-aos="fade-right" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">
             <img src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611414039/Bobs%20Boba/BobsBoba_HoldingBoba_Bg_Resize_qy6sbl.png" alt="">
               <div class="centerMe flexColumn">
                 <p>
@@ -70,14 +71,48 @@
                         No matter what type of tea you like, there is something here for everyone. We hope to bring a refined bubble tea culture into your life.
                     </p>
                     <div class="circleWithBorder centerMe">
-                        <img src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611419031/Bobs%20Boba/BobsBoba_Main_Wallpaper_PinkCircle_xj7ldb.png" alt="">
-
+                        <img src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611844334/Bobs%20Boba/BobsBoba_Main_Wallpaper_LightPinkCircle_yqdbff.png" alt="">
                     </div>
                 </div>
-                
               </div>
-              
           </section>
+          <div class="allTraits spaceBetween"  data-aos="flip-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">
+            <div class="aboutTraits  centerMe flexColumn">
+              <div  class="traitImgContainer">
+                <img src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611844813/Bobs%20Boba/Tiny%20Things/BobsBoba_Icon_Leaf_200_ipsjeq.png" alt="" class="blackRound">
+              </div>
+              <h4 class="textCenter">Fresh</h4>
+            </div>
+            
+            <div class="aboutTraits  centerMe flexColumn">
+              <div class="traitImgContainer">
+                <img src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611844813/Bobs%20Boba/Tiny%20Things/BobsBoba_Icon_Sun_200_qpo1de.png" alt="" class="blackRound">
+              </div>
+              <h4 class="textCenter">Organic</h4>
+            </div>
+            
+            <div class="aboutTraits centerMe flexColumn wrapMe">
+              <div class="traitImgContainer">
+                <img src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611844813/Bobs%20Boba/Tiny%20Things/BobsBoba_Icon_Star_200_jlsekh.png" alt="" class="blackRound">
+              </div>
+              <h4 class="textCenter">Quality</h4>
+            </div>
+            
+            <div class="aboutTraits  centerMe flexColumn">
+              <div class="traitImgContainer">
+                <img src="https://res.cloudinary.com/oceana-web-designs/image/upload/v1611844813/Bobs%20Boba/Tiny%20Things/BobsBoba_Icon_Heart_200_nwstkd.png" alt="" class="blackRound">
+              </div>
+              <h4 class="textCenter">Love</h4>
+            </div>
+            
+          </div>
+          <div class="buttonContainer centerMe">
+            <button>
+              <a href="shop.html">
+                Order Now
+              </a>
+            </button>
+          </div>
     </main>
 
 
@@ -85,7 +120,7 @@
     <footer class="black">
       <div class="wrapper flexRow spaceBetween">
         <div>
-          <h5>&#64; 2021 Bobs Boba Inc.</h5>
+          <h5>&#169; 2021 Bobs Boba Inc.</h5>
         </div>
       <nav>
         <ul>
@@ -105,6 +140,11 @@
       </a>
       <h6 class="textCenter">website built by <strong>OceanaWebDesign</strong></h6>
     </footer>
-		<script type="text/javascript" src="master.js"></script>
+    <script type="text/javascript" src="master.js"></script>
+    <script type="text/javascript" src="master.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 	</body>
 </html>
